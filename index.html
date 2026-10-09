@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manama Guest House | Boutique Stay in Skardu, Pakistan</title>
+  <meta name="description" content="Experience comfort, warm hospitality, delicious dining and convenient car rental services at Manama Guest House, Skardu." />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23C9A24B' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m8 3 4 8 5-5 5 15H2L8 3z'/%3E%3Cpath d='M4.14 15.08c2.62-1.57 5.24-1.43 7.86.42 2.74 1.94 5.49 2 8.23.19'/%3E%3C/svg%3E" />
+
+  <!-- Social share preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Manama Guest House | Boutique Stay in Skardu, Pakistan" />
+  <meta property="og:description" content="Experience comfort, warm hospitality, delicious dining and convenient car rental services at Manama Guest House, Skardu Hassan Colony." />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Manama Guest House | Boutique Stay in Skardu, Pakistan" />
+  <meta name="twitter:description" content="Experience comfort, warm hospitality, delicious dining and convenient car rental services at Manama Guest House, Skardu." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <a href="#home" class="brand-logo">
+        <svg class="mountain-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
+          <path d="M4.14 15.08c2.62-1.57 5.24-1.43 7.86.42 2.74 1.94 5.49 2 8.23.19"/>
+        </svg>
+        <span class="brand-name">MANAMA <span>GUEST HOUSE</span></span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#accommodation" class="nav-link">Accommodation</a></li>
+          <li><a href="#dining" class="nav-link">Dining</a></li>
+          <li><a href="#car-rent" class="nav-link">Car Rent</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-primary open-booking-modal">Book Now</button>
+        <button class="hamburger-toggle" id="hamburger-btn" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+    <div class="mobile-nav-drawer" id="mobile-nav-drawer">
+      <div class="mobile-nav-header">
+        <span class="brand-name">MANAMA <span>SKARDU</span></span>
+        <button class="close-mobile-nav" id="close-mobile-nav">&times;</button>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#accommodation" class="mobile-nav-link">Accommodation</a></li>
+        <li><a href="#dining" class="mobile-nav-link">Dining</a></li>
+        <li><a href="#car-rent" class="mobile-nav-link">Car Rent</a></li>
+        <li><a href="#gallery" class="mobile-nav-link">Gallery</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <button class="btn btn-primary btn-block open-booking-modal">Book Now</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HOME / HERO SECTION ==================== -->
+    <section id="home" class="hero-section">
+      <div class="hero-bg-slideshow">
+        <div class="hero-bg-slide active" style="background-image:url('images/photo-1-exterior-day.jpg')"></div>
+        <div class="hero-bg-slide" style="background-image:url('images/photo-2-exterior-evening.jpg')"></div>
+        <div class="hero-bg-slide" style="background-image:url('images/photo-3-premium-twin-room.jpg')"></div>
+        <div class="hero-bg-slide" style="background-image:url('images/photo-4-living-room.jpg')"></div>
+        <div class="hero-bg-slide" style="background-image:url('images/photo-5-majlis-lounge.jpg')"></div>
+        <div class="hero-bg-slide" style="background-image:url('images/photo-6-bathroom.jpg')"></div>
+        <div class="hero-bg-slide" style="background-image:url('images/photo-7-double-room.jpg')"></div>
+        <div class="hero-bg-slide" style="background-image:url('images/photo-8-twin-room.jpg')"></div>
+      </div>
+      <div class="hero-bg-overlay"></div>
+      <div class="container hero-container">
+        <div class="hero-content animate-on-scroll">
+          <span class="hero-subtitle">WELCOME TO MANAMA GUEST HOUSE</span>
+          <h1 class="hero-title" id="hero-caption">Nestled Amid Apple Orchards in Skardu</h1>
+          <div class="hero-buttons">
+            <button class="btn btn-primary open-booking-modal">Book Your Stay</button>
+            <a href="#accommodation" class="btn btn-outline-light">Explore Accommodation</a>
+          </div>
+        </div>
+
+        <!-- Hero Feature Badges -->
+        <div class="hero-features animate-on-scroll">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16M2 8h20M2 17h20M22 4v16"/></svg>
+            </div>
+            <div class="feature-info">
+              <h4>Comfortable Rooms</h4>
+              <p>Heated & spacious</p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg>
+            </div>
+            <div class="feature-info">
+              <h4>Delicious Dining</h4>
+              <p>Fresh local food</p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.0 10.9 2 11.1 2 11.3V16c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+            </div>
+            <div class="feature-info">
+              <h4>Car Rental</h4>
+              <p>4x4 SUVs & Sedans</p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 7.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="9" r="3"/></svg>
+            </div>
+            <div class="feature-info">
+              <h4>Beautiful Location</h4>
+              <p>Central & scenic views</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ACCOMMODATION SECTION ==================== -->
+    <section id="accommodation" class="section-padding bg-cream">
+      <div class="container">
+        <div class="section-header text-center animate-on-scroll">
+          <span class="section-badge">SANCTUARY OF REST</span>
+          <h2 class="section-title">Stay With Comfort</h2>
+          <p class="section-subtitle">Comfortable rooms designed for a peaceful, relaxing stay in Skardu.</p>
+        </div>
+
+        <div class="rooms-grid">
+          <!-- Room Card 1 -->
+          <div class="room-card animate-on-scroll">
+            <div class="room-image-wrapper">
+              <img src="images/photo-6-bathroom.jpg" alt="Deluxe Room" class="room-image" loading="lazy" />
+              <span class="room-tag">Popular Choice</span>
+            </div>
+            <div class="room-content">
+              <div class="room-header">
+                <h3 class="room-title">Deluxe Room</h3>
+              </div>
+              <p class="room-desc">A serene, warmly furnished room featuring modern amenities and breathtaking valley views.</p>
+              <ul class="room-specs">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16M2 8h20M2 17h20M22 4v16"/></svg> 1 King Size Bed</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg> Up to 2 Guests</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"/></svg> High-Speed WiFi & Heating</li>
+              </ul>
+              <div class="room-actions">
+                <button class="btn btn-outline view-room-details" data-room="deluxe">View Details</button>
+                <button class="btn btn-primary open-booking-modal" data-room-type="Deluxe Room">Book Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Room Card 2 -->
+          <div class="room-card animate-on-scroll">
+            <div class="room-image-wrapper">
+              <img src="images/photo-7-double-room.jpg" alt="Family Room" class="room-image" loading="lazy" />
+              <span class="room-tag">Spacious</span>
+            </div>
+            <div class="room-content">
+              <div class="room-header">
+                <h3 class="room-title">Family Room</h3>
+              </div>
+              <p class="room-desc">Generously sized suite designed specifically for families or groups traveling together.</p>
+              <ul class="room-specs">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16M2 8h20M2 17h20M22 4v16"/></svg> 2 Queen Beds</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg> Up to 4 Guests</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"/></svg> Lounge Area & Smart TV</li>
+              </ul>
+              <div class="room-actions">
+                <button class="btn btn-outline view-room-details" data-room="family">View Details</button>
+                <button class="btn btn-primary open-booking-modal" data-room-type="Family Room">Book Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Room Card 3 -->
+          <div class="room-card animate-on-scroll">
+            <div class="room-image-wrapper">
+              <img src="images/photo-3-premium-twin-room.jpg" alt="Premium Room" class="room-image" loading="lazy" />
+              <span class="room-tag">Luxury View</span>
+            </div>
+            <div class="room-content">
+              <div class="room-header">
+                <h3 class="room-title">Premium Room</h3>
+              </div>
+              <p class="room-desc">An elegant, top-floor sanctuary featuring a private balcony with panoramic mountain views.</p>
+              <ul class="room-specs">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16M2 8h20M2 17h20M22 4v16"/></svg> 1 Super King Bed</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg> Up to 2 Guests</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"/></svg> Private Balcony & Bathtub</li>
+              </ul>
+              <div class="room-actions">
+                <button class="btn btn-outline view-room-details" data-room="premium">View Details</button>
+                <button class="btn btn-primary open-booking-modal" data-room-type="Premium Room">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DINING SECTION ==================== -->
+    <section id="dining" class="section-padding bg-beige">
+      <div class="container">
+        <div class="section-header text-center animate-on-scroll">
+          <span class="section-badge">CULINARY EXPERIENCE</span>
+          <h2 class="section-title">Taste the Flavors of Skardu</h2>
+          <p class="section-subtitle">Enjoy freshly prepared meals and local delicacies in our ambient dining space.</p>
+        </div>
+
+        <div class="dining-grid">
+          <!-- Item 1 -->
+          <div class="dining-card animate-on-scroll">
+            <div class="dining-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=600&q=80" alt="Fresh Breakfast" class="dining-image" loading="lazy" />
+            </div>
+            <div class="dining-info">
+              <h3 class="dining-title">Hearty Breakfast</h3>
+              <p class="dining-desc">Start your day with organic local eggs, fresh parathas, homemade butter, jams, and steaming hot chai.</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="dining-card animate-on-scroll">
+            <div class="dining-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=600&q=80" alt="Local Cuisine" class="dining-image" loading="lazy" />
+            </div>
+            <div class="dining-info">
+              <h3 class="dining-title">Local Balti Cuisine</h3>
+              <p class="dining-desc">Authentic traditional specialties including Mamtu (steamed dumplings), Gyaling, and fresh trout fish.</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="dining-card animate-on-scroll">
+            <div class="dining-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=600&q=80" alt="Pakistani Cuisine" class="dining-image" loading="lazy" />
+            </div>
+            <div class="dining-info">
+              <h3 class="dining-title">Pakistani Specialties</h3>
+              <p class="dining-desc">Mouth-watering chicken & mutton karahi, aromatic biryani, fresh naan, and savory barbecued dishes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CAR RENT SECTION ==================== -->
+    <section id="car-rent" class="section-padding bg-cream">
+      <div class="container">
+        <div class="section-header text-center animate-on-scroll">
+          <span class="section-badge">EXPLORE GILGIT-BALTISTAN</span>
+          <h2 class="section-title">Explore Skardu Your Way</h2>
+          <p class="section-subtitle">Rent a reliable vehicle with experienced local drivers for your journeys to Deosai, Shangrila, and Katpana.</p>
+        </div>
+
+        <div class="vehicles-grid">
+          <!-- Vehicle 1 -->
+          <div class="vehicle-card animate-on-scroll">
+            <div class="vehicle-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=800&q=80" alt="Toyota Corolla" class="vehicle-image" loading="lazy" />
+              <span class="vehicle-type">City Sedan</span>
+            </div>
+            <div class="vehicle-content">
+              <h3 class="vehicle-title">Toyota Corolla</h3>
+              <p class="vehicle-desc">Ideal for comfortable city travel, local shopping in Skardu bazaar, and airport transfers.</p>
+              <div class="vehicle-specs">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg> 4 Passengers</span>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> Driver Included</span>
+              </div>
+              <div class="vehicle-footer">
+                <button class="btn btn-primary btn-block open-car-modal" data-vehicle="Toyota Corolla">Rent Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vehicle 2 -->
+          <div class="vehicle-card animate-on-scroll">
+            <div class="vehicle-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80" alt="Toyota Prado 4x4" class="vehicle-image" loading="lazy" />
+              <span class="vehicle-type">4x4 Luxury SUV</span>
+            </div>
+            <div class="vehicle-content">
+              <h3 class="vehicle-title">Toyota Prado 4x4</h3>
+              <p class="vehicle-desc">Powerful 4WD built for rugged mountain terrains like Deosai Plains, Basho Valley, and Upper Kachura.</p>
+              <div class="vehicle-specs">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg> 6 Passengers</span>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> Driver Included</span>
+              </div>
+              <div class="vehicle-footer">
+                <button class="btn btn-primary btn-block open-car-modal" data-vehicle="Toyota Prado 4x4">Rent Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vehicle 3 -->
+          <div class="vehicle-card animate-on-scroll">
+            <div class="vehicle-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800&q=80" alt="Toyota Hiace Grand Cabin" class="vehicle-image" loading="lazy" />
+              <span class="vehicle-type">Passenger Van</span>
+            </div>
+            <div class="vehicle-content">
+              <h3 class="vehicle-title">Toyota Hiace Grand Cabin</h3>
+              <p class="vehicle-desc">Spacious high-roof van tailored for large family groups and corporate tour groups.</p>
+              <div class="vehicle-specs">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg> 12-14 Passengers</span>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> Driver Included</span>
+              </div>
+              <div class="vehicle-footer">
+                <button class="btn btn-primary btn-block open-car-modal" data-vehicle="Toyota Hiace Grand Cabin">Rent Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== GALLERY SECTION ==================== -->
+    <section id="gallery" class="section-padding bg-beige">
+      <div class="container">
+        <div class="section-header text-center animate-on-scroll">
+          <span class="section-badge">VISUAL JOURNEY</span>
+          <h2 class="section-title">Explore Manama Guest House</h2>
+          <p class="section-subtitle">Click any photo to open full-screen view and explore our surroundings.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item animate-on-scroll" data-index="0">
+            <img src="images/photo-1-exterior-day.jpg" alt="Guest House Exterior" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Guest House Exterior</span>
+            </div>
+          </div>
+          <div class="gallery-item animate-on-scroll" data-index="1">
+            <img src="images/photo-2-exterior-evening.jpg" alt="Guest House Exterior in the Evening" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Evening at the Guest House</span>
+            </div>
+          </div>
+          <div class="gallery-item animate-on-scroll" data-index="2">
+            <img src="images/photo-3-premium-twin-room.jpg" alt="Premium Twin Room" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Premium Twin Room</span>
+            </div>
+          </div>
+          <div class="gallery-item animate-on-scroll" data-index="3">
+            <img src="images/photo-4-living-room.jpg" alt="Furnished Living Room" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Furnished Living Room</span>
+            </div>
+          </div>
+          <div class="gallery-item animate-on-scroll" data-index="4">
+            <img src="images/photo-5-majlis-lounge.jpg" alt="Traditional Lounge" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Traditional Lounge</span>
+            </div>
+          </div>
+          <div class="gallery-item animate-on-scroll" data-index="5">
+            <img src="images/photo-6-bathroom.jpg" alt="Clean Bathroom" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Clean Bathroom</span>
+            </div>
+          </div>
+          <div class="gallery-item animate-on-scroll" data-index="6">
+            <img src="images/photo-7-double-room.jpg" alt="Cozy Double Bedroom" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Cozy Double Bedroom</span>
+            </div>
+          </div>
+          <div class="gallery-item animate-on-scroll" data-index="7">
+            <img src="images/photo-8-twin-room.jpg" alt="Spacious Twin Room" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Spacious Twin Room</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="section-padding bg-cream">
+      <div class="container">
+        <div class="section-header text-center animate-on-scroll">
+          <span class="section-badge">CONNECT WITH US</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Have questions or need assistance planning your trip to Skardu? Reach out to us anytime.</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Contact Info Cards -->
+          <div class="contact-info animate-on-scroll">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 7.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="9" r="3"/></svg>
+              </div>
+              <div>
+                <h4>Location Address</h4>
+                <p>Manama Guest House, Skardu, Hassan Colony</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <h4>Phone / WhatsApp</h4>
+                <p>0323 2871860 / 0346 2430588</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <h4>Official Email</h4>
+                <p>abdulhannan4337860@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <h4>Desk & Booking Hours</h4>
+                <p>Front Desk: 24/7 Available<br>Check-in: 5:00 PM | Check-out: 12:00 PM</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-container animate-on-scroll">
+            <form id="contact-form" class="custom-form">
+              <div id="contact-form-alert" class="form-alert hidden"></div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name">Full Name *</label>
+                  <input type="text" id="contact-name" class="form-control" placeholder="" required />
+                </div>
+                <div class="form-group">
+                  <label for="contact-email">Email Address *</label>
+                  <input type="email" id="contact-email" class="form-control" placeholder="" required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-phone">Phone Number *</label>
+                  <input type="tel" id="contact-phone" class="form-control" placeholder="" required />
+                </div>
+                <div class="form-group">
+                  <label for="contact-subject">Subject</label>
+                  <input type="text" id="contact-subject" class="form-control" placeholder="" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Your Message *</label>
+                <textarea id="contact-message" class="form-control" rows="4" placeholder="" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo light">
+            <svg class="mountain-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
+            </svg>
+            <span class="brand-name">MANAMA <span>GUEST HOUSE</span></span>
+          </a>
+          <p class="footer-text">A comfortable and welcoming sanctuary to rest, dine, and explore the extraordinary natural beauty of Skardu, Gilgit-Baltistan.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4 class="footer-title">Navigation</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#accommodation">Accommodation</a></li>
+            <li><a href="#dining">Dining</a></li>
+            <li><a href="#car-rent">Car Rent</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4 class="footer-title">Contact Information</h4>
+          <p>Manama Guest House, Skardu, Hassan Colony</p>
+          <p>Phone: 0323 2871860 / 0346 2430588</p>
+          <p>Email: abdulhannan4337860@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Manama Guest House Skardu. All Rights Reserved.</p>
+        <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m18 15-6-6-6 6"/></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== MODALS & POPUPS ==================== -->
+
+  <!-- 1. GENERAL ROOM BOOKING MODAL -->
+  <div class="modal-backdrop" id="booking-modal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">Request Room Reservation</h3>
+        <button class="close-modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="booking-alert" class="form-alert hidden"></div>
+        <form id="booking-form" class="custom-form">
+          <div class="form-group">
+            <label for="book-room-type">Select Room Type *</label>
+            <select id="book-room-type" class="form-control" required>
+              <option value="Deluxe Room">Deluxe Room</option>
+              <option value="Family Room">Family Room</option>
+              <option value="Premium Room">Premium Room</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="book-name">Full Name *</label>
+              <input type="text" id="book-name" class="form-control" required placeholder="" />
+            </div>
+            <div class="form-group">
+              <label for="book-phone">Phone / WhatsApp *</label>
+              <input type="tel" id="book-phone" class="form-control" required placeholder="" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="book-email">Email Address *</label>
+              <input type="email" id="book-email" class="form-control" required placeholder="" />
+            </div>
+            <div class="form-group">
+              <label for="book-guests">Number of Guests *</label>
+              <input type="number" id="book-guests" min="1" max="10" value="2" class="form-control" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="book-checkin">Check-in Date *</label>
+              <input type="date" id="book-checkin" class="form-control" required />
+            </div>
+            <div class="form-group">
+              <label for="book-checkout">Check-out Date *</label>
+              <input type="date" id="book-checkout" class="form-control" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="book-message">Special Requests / Notes</label>
+            <textarea id="book-message" class="form-control" rows="2" placeholder=""></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Request Booking</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. ROOM DETAILS DYNAMIC MODAL -->
+  <div class="modal-backdrop" id="room-details-modal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-header">
+        <h3 class="modal-title" id="rd-title">Room Details</h3>
+        <button class="close-modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="room-details-layout">
+          <div class="room-details-img">
+            <img id="rd-image" src="" alt="Room detail image" />
+          </div>
+          <div class="room-details-info">
+            <p id="rd-description" class="rd-desc-text"></p>
+            
+            <h4 class="rd-subheading">Room Specifications</h4>
+            <ul id="rd-specs-list" class="rd-specs-grid"></ul>
+
+            <h4 class="rd-subheading">Included Facilities</h4>
+            <div id="rd-amenities" class="rd-amenities-tags"></div>
+
+            <div class="rd-modal-actions">
+              <button class="btn btn-primary btn-block open-booking-modal" id="rd-book-btn">Book This Room</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. CAR RENTAL REQUEST MODAL -->
+  <div class="modal-backdrop" id="car-rental-modal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">Rent Vehicle Request</h3>
+        <button class="close-modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="car-rental-alert" class="form-alert hidden"></div>
+        <form id="car-rental-form" class="custom-form">
+          <div class="form-group">
+            <label for="car-selected-vehicle">Selected Vehicle *</label>
+            <input type="text" id="car-selected-vehicle" class="form-control" readonly />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="car-name">Full Name *</label>
+              <input type="text" id="car-name" class="form-control" required placeholder="" />
+            </div>
+            <div class="form-group">
+              <label for="car-phone">Phone Number *</label>
+              <input type="tel" id="car-phone" class="form-control" required placeholder="" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="car-email">Email Address *</label>
+              <input type="email" id="car-email" class="form-control" required placeholder="" />
+            </div>
+            <div class="form-group">
+              <label for="car-passengers">Passengers *</label>
+              <input type="number" id="car-passengers" min="1" max="15" value="4" class="form-control" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="car-pickup">Pickup Date *</label>
+              <input type="date" id="car-pickup" class="form-control" required />
+            </div>
+            <div class="form-group">
+              <label for="car-return">Return Date *</label>
+              <input type="date" id="car-return" class="form-control" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="car-message">Destination Plan / Requirements</label>
+            <textarea id="car-message" class="form-control" rows="2" placeholder=""></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Send Rental Request</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- WHATSAPP FLOATING BUTTON -->
+  <a href="https://wa.me/923232871860" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+    <svg viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16.001 0C7.164 0 0 7.163 0 16c0 2.824.738 5.554 2.14 7.965L0 32l8.223-2.107A15.93 15.93 0 0 0 16.001 32C24.836 32 32 24.837 32 16S24.836 0 16.001 0zm9.386 22.605c-.399 1.124-1.978 2.058-3.233 2.328-.86.184-1.984.331-5.766-1.24-4.837-2.004-7.947-6.917-8.19-7.238-.234-.32-1.955-2.604-1.955-4.968s1.225-3.53 1.659-4.014c.399-.446.918-.556 1.223-.556.305 0 .61.003.876.016.28.013.657-.106 1.028.784.399.96 1.354 3.325 1.472 3.567.117.242.196.523.039.844-.156.32-.234.522-.469.803-.234.281-.492.628-.703.844-.234.242-.478.505-.205.99.273.484 1.213 2.005 2.605 3.248 1.789 1.594 3.298 2.087 3.782 2.32.484.234.766.196 1.047-.117.281-.313 1.198-1.395 1.518-1.874.32-.478.641-.398 1.081-.238.44.156 2.79 1.316 3.269 1.555.478.238.797.359.914.559.117.199.117 1.156-.282 2.28z"/>
+    </svg>
+  </a>
+
+  <!-- 4. GALLERY LIGHTBOX MODAL -->
+  <div class="lightbox-overlay" id="gallery-lightbox">
+    <button class="lightbox-close" id="lightbox-close">&times;</button>
+    <button class="lightbox-nav prev" id="lightbox-prev">&#10094;</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="Gallery Lightbox View" />
+      <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+    <button class="lightbox-nav next" id="lightbox-next">&#10095;</button>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+```
